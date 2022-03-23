@@ -10,7 +10,7 @@ import os.path as op
 import torch
 from typing import Callable, Dict, List, Optional, Tuple
 
-from oscar.modeling.modeling_utils import BeamHypotheses
+from Oscar.oscar.modeling.modeling_utils import BeamHypotheses
 
 StepFunctionType = Callable[
     [torch.Tensor, List[torch.Tensor]], Tuple[torch.Tensor, List[torch.Tensor]]
